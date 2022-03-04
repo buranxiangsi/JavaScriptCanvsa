@@ -1,0 +1,1 @@
+{"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","sources":["style.css"],"sourcesContent":["*{margin: 0; padding: 0; box-sizing: border-box;}\n#canvas{\n    /*height: 100vh;\n    width: 100vw;\n    vh/vw 宽高和屏幕一样*/\n   \n    display: block;\n}"],"names":[],"version":3,"file":"index.3a01df49.css.map","sourceRoot":"/__parcel_source_root/"}

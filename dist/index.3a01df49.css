@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#canvas{
+    /*height: 100vh;
+    width: 100vw;
+    vh/vw 宽高和屏幕一样*/
+   
+    display: block;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
