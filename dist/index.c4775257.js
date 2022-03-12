@@ -4,12 +4,22 @@ canvas.width = document.documentElement.clientWidth;
 canvas.height = document.documentElement.clientHeight;
 let ctx = canvas.getContext('2d');
 //填充矩形样式
-ctx.fillStyle = 'black'; //填充颜色
+ctx.fillStyle = getColor(); //填充颜色
 ctx.strokeStyle = 'none'; //线条颜色
 ctx.lineCap = 'round'; //线条末端样式
 ctx.lineWidth = 10; // 线条宽度
 let painting = false;
 let last;
+function getColor() {
+    let color = document.querySelectorAll('.colorItem');
+    for(let i1 = 0; i1 < color.length; i1++)color[i1].onclick = function() {
+        for(let i = 0; i < color.length; i++){
+            activeColor = this.style.backgroundColor;
+            ctx.fillStyle = activeColor;
+            ctx.strokeStyle = activeColor;
+        }
+    };
+}
 function drawLine(x1, y1, x2, y2) {
     ctx.beginPath();
     ctx.moveTo(x1, y1);

@@ -1,0 +1,11 @@
+10
+45C:\Users\luo\Desktop\JavaScriptCanvsa\main.js132915494996273438 0
+42C:\Users\luo\Desktop\JavaScriptCanvsa\dist132915512607145653 1
+65C:\Users\luo\Desktop\JavaScriptCanvsa\dist\index.3a01df49.css.map132915512607085782 0
+61C:\Users\luo\Desktop\JavaScriptCanvsa\dist\index.3a01df49.css132915512607085782 0
+47C:\Users\luo\Desktop\JavaScriptCanvsa\README.md132907474290441981 0
+48C:\Users\luo\Desktop\JavaScriptCanvsa\index.html132915510322480327 0
+47C:\Users\luo\Desktop\JavaScriptCanvsa\style.css132915512605233920 0
+60C:\Users\luo\Desktop\JavaScriptCanvsa\dist\index.c4775257.js132915494688756527 0
+64C:\Users\luo\Desktop\JavaScriptCanvsa\dist\index.c4775257.js.map132915494688716629 0
+53C:\Users\luo\Desktop\JavaScriptCanvsa\dist\index.html132915510307136547 0
