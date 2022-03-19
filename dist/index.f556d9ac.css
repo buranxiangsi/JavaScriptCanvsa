@@ -36,6 +36,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 30px;
+  position: absolute;
 }
 .drawWidth{
   display: flex;
@@ -116,6 +117,7 @@ ol p{
   height: 20px;
   text-align: center;
   vertical-align: middle;
+  background: #e9d57d;
 }
 
 /*# sourceMappingURL=index.f556d9ac.css.map */
