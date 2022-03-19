@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#canvas {
+  /*height: 100vh;
+    width: 100vw;
+    vh/vw 宽高和屏幕一样*/
+  display: block;
+  min-width: 90vw;
+  min-height: 90vh;
+  box-shadow: 0px 1px 2px 0px #0f0d0d;
+}
+ul,
+ol {
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.drawTool {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.drawWidth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.drawWidth:hover .width{
+  display: block;
+  position: absolute;
+  transform: translateY(45px)
+
+}
+.width{
+  display: none;
+}
+.drawColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drawColor:hover .color{
+  display: block;
+  position: absolute;
+  transform: translateY(45px)
+}
+.color {
+  display: none;
+}
+.color li:hover{
+   display: block;
+}
+.colorItem {
+  width: 50px;
+  height: 20px;
+}
+.widthItem{
+  height: 20px;
+    background-color: black;
+    margin-bottom: 4px;
+    font-size: 3px;
+    color: white;
+    text-align: center;
+    line-height: center;
+    width: 50px;
+}
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css.map */
