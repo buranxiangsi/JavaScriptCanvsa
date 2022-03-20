@@ -32,16 +32,11 @@ function getWidth() {
     width[i].onclick = function () {
       for (let i = 0; i < width.length; i++) {
         activeWidth = this.textContent
-        ctx.lineWidth = activeWidth 
+        ctx.lineWidth = activeWidth
       }
     }
   }
 }
-getWidth()
-
-
-
-
 
 function drawLine(x1, y1, x2, y2) {
   ctx.beginPath();
@@ -82,3 +77,30 @@ if (isTouchDevice) {
     painting = false;
   };
 }
+
+
+const drawTool = document.querySelector('.drawTool')
+
+let button = true
+function toolOnClick(){
+  const buttonCss = document.querySelectorAll('.buttonCss')
+  for(let i=0;i<buttonCss.length;i++){
+    buttonCss[i].onclick = function(){
+      const el = buttonCss[i].querySelector('.transition')
+      if(button){
+        el.style.display = 'none'
+        el.classList.remove('isClick')
+        button = false
+      }else{
+        el.style.display = 'block'
+        el.classList.add('isClick')
+        button = true
+      }
+    }
+  }
+}
+drawTool.addEventListener('click',toolOnClick)
+
+
+
+
